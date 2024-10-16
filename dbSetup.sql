@@ -72,10 +72,28 @@ CREATE TABLE houses (
     id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     sqft INT NOT NULL,
     bedrooms INT NOT NULL,
-    bathrooms DOUBLE NOT NULL,
+    bathrooms DOUBLE PRECISION NOT NULL,
     imgUrl VARCHAR(255) NOT NULL,
     description VARCHAR(255) NOT NULL,
     price INT NOT NULL,
     createdAt DATETIME DEFAULT CURRENT_TIMESTAMP COMMENT 'Time Created',
     updatedAt DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP COMMENT 'Last Update'
 );
+
+Insert INTO
+    houses (
+        sqft,
+        bedrooms,
+        bathrooms,
+        imgUrl,
+        description,
+        price
+    )
+VALUES (
+        1887,
+        3,
+        2.5,
+        'https://unsplash.com/photos/a-house-with-a-blue-front-door-and-a-brown-front-door-xaqsFfoEq3o',
+        'Super Awesome House!!!',
+        300000
+    );
