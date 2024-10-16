@@ -90,10 +90,10 @@ Insert INTO
         price
     )
 VALUES (
-        1887,
+        2150,
         3,
-        2.5,
-        'https://unsplash.com/photos/a-house-with-a-blue-front-door-and-a-brown-front-door-xaqsFfoEq3o',
-        'Super Awesome House!!!',
-        300000
+        3,
+        'https://plus.unsplash.com/premium_photo-1661876449499-26de7959878f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aG91c2VzfGVufDB8fDB8fHww',
+        'Very modern looking home, in a great neighborhood',
+        500000
     );
